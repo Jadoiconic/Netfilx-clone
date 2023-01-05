@@ -28,7 +28,7 @@ const truncateString = (str, num) => {
                 <img className='w-full h-full object-cover' src={`https://image.tmdb.org/t/p/original${movie?.backdrop_path}`} alt={movie?.title} />
                 <div className='absolute w-full top-[20%] p-4 md:p-8'>
                     <h1 className='font-bold text-3xl md:5xl'>{movie?.title}</h1>
-                    <div>
+                    <div className='py-4'>
                         <button
                             className='border bg-gray-300 text-black border-gray-300 py-2 px-5 rounded'>Play</button>
                         <button

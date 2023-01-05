@@ -7,10 +7,10 @@ function HomePage() {
   return (
     <div className='text-white'>
         <Main />
-        <Row title="Popular" fetchUrl={requests.requestPoplar} />
-        <Row title="Trending" fetchUrl={requests.requestTrending} />
-        <Row title="Top Rated" fetchUrl={requests.requestTopRated} />
-        <Row title="Upcoming" fetchUrl={requests.requestUpcoming} />
+        <Row rowId={1} title="Popular" fetchUrl={requests.requestPoplar} />
+        <Row rowId={2} title="Trending" fetchUrl={requests.requestTrending} />
+        <Row rowId={3} title="Top Rated" fetchUrl={requests.requestTopRated} />
+        <Row rowId={4} title="Upcoming" fetchUrl={requests.requestUpcoming} />
     </div>
   )
 }
