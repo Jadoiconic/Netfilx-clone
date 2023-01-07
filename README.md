@@ -69,4 +69,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # Netfilx-clone
-"# Netfilx-clone" 
+"# Netfilx-clone"
+![Screenshot (15)](https://user-images.githubusercontent.com/86121130/210898017-4e7e9b87-b48a-4dc1-b96f-a99e05fc0182.png)
+
