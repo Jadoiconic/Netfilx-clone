@@ -1,5 +1,4 @@
 import axios from 'axios'
-import { FaHeart, FaRegHeart } from 'react-icons/fa'
 import { MdChevronLeft, MdChevronRight} from 'react-icons/md'
 import React, { useEffect, useState } from 'react'
 import Movie from './Movie'
@@ -26,7 +25,7 @@ const sliderRight = () =>{
             <h2 className='text-white font-bold md:text-xl p-4'>{title}</h2>
             <MdChevronLeft onClick={sliderLeft} className='bg-white rounded-full top-[50%] text-black absolute opacity-50 hover-opacity-100  left-0 cursor-pointer z-10 hidden group-hover:block' size={40} />
             <div className='relative flex items-center'>
-                <div id={'slider'+rowId} className='w-full overflow-x-scroll whitespace-nowrap scroll-smooth overflow-hidden scrol relative'>
+                <div id={'slider'+rowId} className='w-full overflow-x-scroll whitespace-nowrap scroll-smooth scrollbar-hide relative'>
                     {movies.map((item, id) => (
                         <Movie key={id} item={item} />
 
